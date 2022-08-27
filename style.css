@@ -1,0 +1,407 @@
+<style>
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	
+	}
+	
+	
+	body{
+		margin: 0;
+	
+		
+	}	
+	link{
+		margin: 0;
+	}
+		
+	.first{
+		background: url(images/code3.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin:0;
+		
+		
+		}
+	.first h1{
+		color: white;
+		text-align: center;
+		font-size: 50px;
+	}
+	.first p{
+		color: white;
+		text-align: center;
+		font-family: arial;
+		font-size: 20px;
+		margin: 0 20px 35px 20px;
+	}
+	.first a{
+		text-decoration: none;
+		color: white;
+		position: relative;
+		left: 45%;
+		border: 2px white solid;
+		padding: 15px;
+		font-size: 20px;
+		border-radius: 30px;
+		width: 35px;
+	
+	}
+	.first a:hover{
+		background: black;
+	}
+	
+	.second{
+		width:100%;
+		background: rgba(0,0,0,0.9);
+		min-height: 250px;
+		margin: 0;
+	
+	}
+	.second h2{
+		color: white;
+		text-align: center;
+		margin: 0;
+		padding: 20px 0;
+		font-size: 30px;
+		
+	}
+	 .second li{
+		display: inline-block;
+		color: white;
+		width: 350px;
+		text-align: center;
+		margin-left: 170px;
+		margin-right: 100px;
+		font-family: arial;
+		
+	 }
+	
+	.third{
+		background: rgba(51,0,51,0.9 );
+		min-height: 450px;
+	}
+	.third ul{
+		margin:0
+	}
+	.third li{
+		display: inline-block;
+		min-height: 400;
+		margin-top: 25 ;
+		margin-bottom: 25 ;
+		margin-right: 100px;
+		background: white;
+	}
+	.third p{
+		width: 200px;
+		padding-left: 20px;
+		padding-right: 20px;
+		box-sizing: border-box;
+		font-family: arial;
+	}
+	.thirdcontent{
+		text-align: center;
+	}
+	
+	
+	.fourth{
+		min-height: 240px;
+	}
+	.fourth h2{
+		text-align: center;
+		font-size: 30px;
+		padding-top: 45px;
+		padding-bottom: 25px;
+		
+	}
+	.fourth p{
+		text-align: center;
+		font-family: arial;
+		font-size: 18px;
+		padding: 0 180;
+	}
+	
+	.fifth h2{
+		text-align: center;
+		margin-top: 80px;
+		margin-bottom: 35px;
+		font-size: 30;
+		color: white;
+	}
+	.fifth p{
+		padding: 0px 100px 20px 100px;
+		text-align: center;
+		font-family: arial;
+		font-size: 18px;
+		line-height: 25px;
+		color: white;
+	}
+	.fifth1{
+		float: left;
+		width: 50%;
+		background:   rgb(51,51,51);
+		min-height: 400px;
+	}
+	.fifth2{
+		width:50%;
+		float: right;
+		background: rgb(51,51,102);
+		min-height: 400px;	
+	}
+	#number{
+		text-align: center;
+	}
+	#email{
+		text-align: center;
+	}
+	
+	footer{
+		min-height: 90px;
+		background: black;
+		clear: both;
+	}
+	.foot1{
+		color: white;
+		font-family: arial;
+		font-size: 18px;
+		float:left;
+		padding: 35px 0px 0 240;
+	}
+	.foot2{
+		color: white;
+		font-family: arial;
+		font-size: 18px;
+		float:right;
+		padding: 35px 80px 0 0;
+	}
+	
+	
+	@media screen and (max-width: 1300px){
+		.second li{	
+			margin-left: 100;
+		}
+	
+	@media screen and (max-width: 1200px){
+		.fifth1{	
+			min-height: 465px;
+		}		
+	}
+	@media screen and (max-width: 1200px){
+		.fifth2{	
+			min-height: 465px;
+		}
+	}	
+		
+		
+	@media screen and (max-width: 1160px){
+		.second li{
+			margin-left: 50;
+		}
+	@media screen and (max-width: 1060px){
+		.second li{
+			margin-left: 40;
+			margin-right: 30;
+			
+		}
+	@media screen and (max-width: 964px){
+		.third li{
+			margin-right: 50px;
+		}	
+	@media screen and (max-width: 964px){
+		.foot1{
+			padding: 35 0 0 60;
+		}		
+	@media screen and (max-width: 900px){
+		.second li{
+			display: block;
+			width: 100%;
+			margin: 0;
+			margin-right: 50px;
+			text-align: left;
+			text-indent: 20px;
+			overflow: contain;
+		}
+		@media screen and (max-width: 851px){
+		.first a{
+			position: relative;
+			left: 42%;
+			
+	}	
+	@media screen and (max-width: 850px){
+			.fifth p{
+				padding: 0 10 20 10;
+				font-size: 16px;
+				
+			
+			}
+		
+	}	
+	@media screen and (max-width: 850px){
+			.fifth1{
+				min-height: 450px;
+				
+				
+			}
+		
+	}	@media screen and (max-width: 850px){
+			.fifth2{
+				min-height: 450px;
+				
+				
+			}
+		
+	}	
+	
+	
+	
+	@media screen and (max-width: 814px){
+		.third li{
+			margin-right: 20px;
+		}		
+		
+	@media screen and (max-width: 770px){
+		.foot1{
+			padding: 35 0 0 10;
+			font-size: 16px;
+		}
+	@media screen and (max-width: 770px){
+		.foot2{
+			padding: 35 10 0 0;
+			font-size: 16px;
+		}		
+		
+		
+		@media screen and (max-width: 725px){
+		.third li{
+			margin-right: 90px;
+			margin-left: 60px;
+			
+		}	
+	@media screen and (max-width: 700px){
+		.fourth p{
+			padding: 0 80px;
+		}
+
+
+	}					
+
+	
+	@media screen and (max-width: 650px){
+		.second{
+			min-height: 310px;	
+		}
+	@media screen and (max-width: 586px){
+		.first a{
+			position: relative;
+			left: 39%;
+	}	
+	
+	
+	@media screen and (max-width: 500px){
+		.fifth2 p{
+			font-size: 12px;
+		}
+		.fifth1 p{
+			font-size: 12px;
+		}
+		
+	}
+	
+	@media screen and (max-width: 480px){
+		.foot1{
+			font-size: 14px;
+		}
+		.foot2{
+			font-size: 14px;
+		}
+		.fifth2{
+			min-height: 480px;
+		}
+		.fifth1{
+			min-height: 480px;
+		}
+		
+	}
+	
+	@media screen and (max-width: 453px){
+		.first a{
+			position: relative;
+			left: 37%;
+		}
+		
+	@media screen and (max-width: 443px){
+		.second ul{
+			padding-left: 20px;
+		}
+		
+		
+	}
+	
+	@media screen and (max-width: 430px){
+		.foot1{
+			font-size: 12px;
+		}
+		.foot2{
+			font-size: 12px;
+		}
+		.second {
+			min-height: 400px;
+		}
+		
+		@media screen and (max-width: 424px){
+		.second {
+			min-height: 400px;
+		}
+		
+	}
+	
+	@media screen and (max-width: 386px){
+		.first a{
+			position: relative;
+			left: 35%;
+		}
+		.third ul{
+			padding-left: 25px;
+		}
+		.foot2{
+			font-size: 10px;
+		}
+	}
+	
+	@media screen and (max-width: 380px){
+		#email{
+			font-size: 10px;
+		}		
+	}
+	
+	@media screen and (max-width: 375px){
+		.text{
+			overflow: scroll;
+		}
+	}
+	
+	@media screen and (max-width: 360px){
+		
+		.third ul{
+			padding-left: 18px;
+		}
+		
+	}
+	
+	@media screen and (max-width: 340px){
+		
+		.third ul{
+			padding-left: 10px;
+		}
+		.foot1{
+			font-size: 10px;
+		}
+	}
+	
+</style>
